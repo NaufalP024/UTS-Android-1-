@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar10"
+        android:id="@+id/register_image1"
+        android:contentDescription="@string/gambarlogin1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/register_image2"
+        android:contentDescription="@string/gambarlogin2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_trpl"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/register_image1"
+        android:id="@+id/register_txt1"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/let_s_help_you_meet_up_your_tasks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_below="@+id/register_txt1"
+        android:id="@+id/register_txt2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/rectangle"
+        android:contentDescription="@string/gambarrectangle"
+        android:layout_below="@+id/register_txt2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:layout_below="@+id/register_txt2"
+        android:id="@+id/register_layout1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_green"
+            android:hint="@string/enter_your_full_name"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/register_edit1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_green"
+            android:hint="@string/enter_your_email"
+            android:backgroundTint="@color/white"
+            android:textSize="15sp"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/register_edit2"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_green"
+            android:hint="@string/create_password"
+            android:backgroundTint="@color/white"
+            android:textSize="15sp"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/register_edit3"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_green"
+            android:hint="@string/confirm_password"
+            android:backgroundTint="@color/white"
+            android:textSize="15sp"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/register_edit4"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:width="300dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsbold"
+        android:background="@drawable/button_green"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register_layout1"
+        android:id="@+id/register_btn1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/register_btn1"
+        android:id="@+id/register_layout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            android:fontFamily="@font/poppinsregular" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/register_txt3"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/greenThird" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rpl"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/gambarrpl"
+        android:layout_below="@+id/register_layout2"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fasilitas2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:id="@+id/fasilitas_layout">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+
+            <!-- Judul -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fasilitasami"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Card: LAB RPL -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardElevation="4dp"
+                android:radius="16dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_mitra"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kelasb7"/>
+
+                    <TextView
+                        android:text="@string/lab_rpl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lab_rpl_ini_dirancang_sebagai_ruang_yang_nyaman_dan_modern_tempat_di_mana_ide_ide_cemerlang_lahir_dan_berkembang"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/greyPrimer"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:contentDescription="@string/todo2"
+                            android:src="@drawable/ceklis" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_24_7_akses_untuk_mahasiswa"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:contentDescription="@string/todo3"
+                            android:src="@drawable/ceklis" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bersih_dan_nyaman"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card: TOOLS DAN PERANGKAT -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardElevation="4dp"
+                android:radius="16dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_mitra"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:contentDescription="@string/todo4"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kelas3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/tools_dan_perangkat"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/greyPrimer"
+                        android:text="@string/perangkat_modern_berupa_pc_berbasis_macos_yang_powerful_dan_responsif_tools_terbaru_seperti_xcode_android_studio_visual_studio_code_dan_docker_telah_terinstal"
+                        android:layout_marginTop="4dp"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:contentDescription="@string/todo5"
+                            android:src="@drawable/ceklis" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/performa_kinerja_tinggi"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:contentDescription="@string/todo6"
+                            android:src="@drawable/ceklis" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tools_pengembangan_terupdate"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Dua Kartu Kecil -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- Pusat Inovasi -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="4dp"
+                    app:cardElevation="4dp"
+                    android:radius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_mitra"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:contentDescription="@string/todo7"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/kelas1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="@string/pusat_inovasi"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_marginTop="4dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/greyPrimer"
+                            android:text="@string/ruang_kolaboratif_bagi_mahasiswa_untuk_mengerjakan_proyek_dan_startup"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Sumber Daya Digital -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp"
+                    app:cardElevation="4dp"
+                    android:radius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/bg_mitra"
+                        android:padding="8dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:contentDescription="@string/todo8"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/jurnal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="@string/sumber_daya_digital"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_marginTop="4dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/greyPrimer"
+                            android:text="@string/akses_ke_jurnal_online_e_book_dan_platform_pembelajaran"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_profile"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@null"
+        app:itemTextColor="@null"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

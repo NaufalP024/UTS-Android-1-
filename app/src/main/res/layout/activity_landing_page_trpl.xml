@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingPageTRPL">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/layout_trpl"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/logopei"
+                android:id="@+id/image_trpl"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/button_orange"
+                android:layout_marginLeft="190dp"
+                android:padding="7dp"
+                android:src="@drawable/ic_toolbar"
+                android:layout_marginTop="20dp"
+                android:id="@+id/button_trpl_toolbar"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="170dp"
+            android:layout_below="@+id/layout_trpl"
+            android:layout_marginTop="-2dp"
+            android:src="@drawable/mahasiswatrpl"
+            android:id="@+id/image_trpl1"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/layout_trpl"
+            android:layout_marginLeft="190dp"
+            android:backgroundTint="@color/greenPrimer"
+            android:id="@+id/card_trpl">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teknologi_rpl_informatika"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="10sp"
+                android:id="@+id/txt_trpl"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/wujudkan_cita_citamu_untuk_menjadi_software_engineer_yang_dibutuhkan_banyak_industri_dan_memiliki_gaji_yang_tinggi_sesuai_dengan_permintaan"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="6sp"
+                android:id="@+id/txt_trpl1"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_trpl1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/visi_trpl_menjadi_pengembangan_pendidikan_vokasi_terdepan_dalam_kawasan_regional_untuk_komunitas_industri_guna_memenuhi_kebutuhan_tenaga_teknis_yang_kompeten_di_bidang_rekayasa_perangkat_lunak"
+            android:paddingBottom="10dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="30dp"
+            android:id="@+id/txt_trpl2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/txt_trpl2"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/layout_trpl2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="@string/misi"
+                android:textColor="@color/orangeSecond"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:textSize="6sp"
+                android:textColor="@color/greyPrimer"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="@string/_1_menyelenggarakan_pendidikan_vokasi_untuk_menghasilkan_lulusan_yang_kompeten_di_bidang_software_engineering_yang_berkualitas_dan_mampu_beradaptasi_dengan_perkembangan_teknologi_dan_dunia_industri_2_melaksanakan_penelitian_terapan_untuk_mengembangkan_pengetahuan_dan_inovasi_rekayasa_perangkat_lunak_sesuai_dengan_perkembangan_zaman_dan_teknologi_3_menyebarluaskan_pengetahuan_dan_hasil_penelitian_kepada_masyarakat_luas_untuk_meningkatkan_kualitas_kehidupan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tujuan"
+                android:textSize="7sp"
+                android:fontFamily="@font/poppinssemibold"
+                android:textColor="@color/orangeSecond"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="6sp"
+                android:textColor="@color/greyPrimer"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="@string/_1_menghasilkan_lulusan_yang_berkarakter_dan_berkualitas_baik_yang_mampu_bersaing_dan_beradaptasi_dengan_perkembangan_teknologi_2_menghasilkan_inovasi_teknologi_rekayasa_perangkat_lunak_terbarukan_yang_dapat_digunakan_di_berbagai_kalangan_masyarakat_3_menghasilkan_layanan_dan_dampak_positif_dari_pengembangan_inovasi_teknologi_rekayasa_perangkat_lunak_kepada_masyarakat_umum"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/layout_trpl2"
+            android:padding="20dp"
+            android:background="@color/greyThird"
+            android:id="@+id/layout_trpl3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/lulus_dari"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/greenPrimer"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/trpl_pei"/>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/kamu_bakal_bisa_apa"/>
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/trpl"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="220dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:backgroundTint="@color/greyFour"
+                    app:cardCornerRadius="5dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kompetensi_utama"
+                        android:textSize="9sp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/greyPrimer"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_add"
+                        android:padding="6dp"
+                        android:layout_marginLeft="180dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="220dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/greyFour"
+                    app:cardCornerRadius="5dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kompetensi_pendukung"
+                        android:textSize="9sp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/greyPrimer"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_add"
+                        android:padding="6dp"
+                        android:layout_marginLeft="180dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="220dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/greyFour"
+                    app:cardCornerRadius="5dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kompetensi_lainnya"
+                        android:textSize="9sp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/greyPrimer"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_add"
+                        android:padding="6dp"
+                        android:layout_marginLeft="180dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_below="@+id/layout_trpl3"
+            android:id="@+id/layout_trpl4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/untuk_mendapatkan"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/greenPrimer"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/kompetensi"/>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/diatas_maka_kamu_akan_belajar_ini"/>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mahasiswitrpl"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="115dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/greyFour"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="19dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ic_pc"/>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/pengetahuan_dasar_it_programming"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="5sp"
+                        android:layout_marginTop="55dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/pengantar_lunak_aplikasi_pemrograman_dasar_struktur_data_pemrograman_berorientasi_objek_sistem_basis_data_sistem_operasi_perancangan_ui_ux"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="95dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/greyFour"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="19dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/js"/>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/web_design_programming"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="5sp"
+                        android:layout_marginTop="50dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/html_css_java_script_bootstrap_php_mysql_laravel_vue_js_react_js"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="97dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/greyFour"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="19dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/grid"/>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/rekayasa_perangkat_lunak"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="5sp"
+                        android:layout_marginTop="45dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/pengantar_rekayasa_perangkat_lunak_analisis_desain_perangkat_lunak_pengujian_perangkat_lunak_manajemen_proyek"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="97dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/greyFour"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="19dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/mic"/>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/english"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="5sp"
+                        android:layout_marginTop="35dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/vocabulary_reading_speaking_listening_grammar_writing_english_fo_career_toeic"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="115dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/greyFour"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:paddingRight="19dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ic_android"/>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/android_programming"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="5sp"
+                        android:layout_marginTop="45dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/activity_intent_layout_style_theme_list_recycle_view_navigation_background_process_networking_restful_api_viewmodel_livedata_testing_local_data_persistent_background_task_schheduler_basic_flutter"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="117dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/greyFour"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="19dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/cpu"/>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/cyber_security_computer_network"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="5sp"
+                        android:layout_marginTop="57dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/dasar_keamanan_komputer_keamanan_perangkat_lunak_keamanan_basis_data_komunikasi_data_jaringan_sistem_terdistribusi_cloud_computing"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/greyFour"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="19dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/calculator"/>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/math_data_processing"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="5sp"
+                        android:layout_marginTop="45dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/kalkulus_aljabar_linear_matematika_diskrit_statistik_data_mining"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/greyFour"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="19dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/award"/>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/success_skill"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="5sp"
+                        android:layout_marginTop="35dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/teknik_presentasi_manajemen_kearsipan_etika_profesi_technopreneur_magang_internship_tugas_akhir_projek_akhir"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="24dp"
+            android:layout_below="@+id/layout_trpl4"
+            android:backgroundTint="@color/greenFour"
+            app:cardCornerRadius="5dp"
+            android:padding="10dp"
+            android:id="@+id/card_trpl1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lihat_kurikulum"
+                android:textSize="9sp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrowdown"
+                android:padding="7dp"
+                android:layout_marginLeft="300dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/greyThird"
+            android:layout_below="@+id/card_trpl1"
+            android:id="@+id/layout_trpl5">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/tim"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/greenPrimer"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/pengajar"/>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/sesuai_dengan_bidang_keahliannya"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/musawarman"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:gravity="center"
+                        android:text="@string/musawarman_s_kom_m_m_s_i"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="6sp"
+                        android:gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:text="@string/s1_institut_pertanian_bogor_s2_universitas_gunadarma_jakarta"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/nugraha"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:gravity="center"
+                        android:text="@string/muhammad_nugraha_s_t_m_eng"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="6sp"
+                        android:gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:text="@string/s1_universitas_ahmad_dahlan_yogyakarta_s2_chonnam_national_university_korea_selatan"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ricak"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:gravity="center"
+                        android:text="@string/ricak_agus_setiawan_s_t_m_si"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="6sp"
+                        android:gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:text="@string/s1_stmik_bandung_s2_stmik_putera_batam"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/halimil"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:gravity="center"
+                        android:text="@string/halimil_fathi_s_kom_m_kom"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="85dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/s1_stt_wastu_kancana_purwakarta_s2_stmik_likmi_bandung"
+                        android:textColor="@color/greyPrimer"
+                        android:textSize="6sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/widya"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:gravity="center"
+                        android:text="@string/widya_andayani_rahayu_s_pd_m_pd"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="6sp"
+                        android:gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:text="@string/s1_stkip_subang_s2_universitas_indraprasta_pgri"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/heti"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:gravity="center"
+                        android:text="@string/heti_mulyani_s_t_m_kom"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="6sp"
+                        android:gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:text="@string/s1_stmik_bandung_s2_institut_pertanian_bogor"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/rina"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:gravity="center"
+                        android:text="@string/sukrina_herman_s_kom_m_kom"
+                        android:textSize="7sp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="6sp"
+                        android:gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:padding="10dp"
+                        android:textColor="@color/greyPrimer"
+                        android:text="@string/s1_telkom_university_s2_stimik_likmi_bandung"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_trpl5"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/fasilitas_belajar_lengkap_dan_nyaman"
+            android:paddingBottom="5dp"
+            android:layout_centerHorizontal="true"
+            android:paddingRight="30dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:id="@+id/txt_trpl3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_trpl3"
+            android:textColor="@color/greyPrimer"
+            android:gravity="center"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:text="@string/kampus_berada_di_lingkungan_yang_jauh_dari_keramaian_dan_masih_asri"
+            android:paddingBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:paddingRight="30dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:id="@+id/txt_trpl4"/>
+
+        <LinearLayout
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/txt_trpl4"
+            android:id="@+id/layout_trpl6">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gambar1"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gambar2"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gambar3"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gambar4"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gambar5"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gambar6"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/layout_trpl6"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:id="@+id/card_trpl2">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yt"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize5Percent" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_trpl2"
+            android:layout_marginLeft="85dp"
+            android:orientation="horizontal"
+            android:id="@+id/layout_trpl7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/mahasiswa_senang_kuliah_di_prodi"
+                android:paddingBottom="5dp"
+                android:paddingTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/greenPrimer"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_marginLeft="3dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/trp_pei"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_trpl7"
+            android:orientation="vertical"
+            android:id="@+id/layout_trpl8">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="115dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/greyFour"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:textColor="@color/greyPrimer"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="@string/pengalaman_saya_selama_kuliah_di_pei_saya_mendapatkan_ilmu_yang_saya_sukai_seperti_mendesain_aplikasi_dan_pemrograman_dengan_metode_pembelajaran_yang_lebih_banyak_praktek_membuat_saya_tidak_bosan_belajar_dikelas"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="19dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="80dp"
+                    android:src="@drawable/idcard"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginLeft="35dp"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="@string/dina_armei_trpl_21"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="115dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/greyFour"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:textColor="@color/greyPrimer"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="@string/saya_senang_kuliah_di_pei_karena_fasilitas_lab_disini_sangat_lengkap_sehingga_proses_pembelajaran_dapat_dilakukan_dengan_maksimal"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="19dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="80dp"
+                    android:src="@drawable/idcard"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginLeft="35dp"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="@string/muhammad_daris_trpl_21"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="115dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/greyFour"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:textColor="@color/greyPrimer"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="@string/saya_sangat_senang_kuliah_pei_karena_dosen_nya_baik_dan_selalu_membantu_saya_ketika_menghadapi_kesulitan_dalam_pembelajaran_selain_itu_dosennya_juga_sangat_berkopenten_dalam_bidangnya_masing_masing"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="19dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="80dp"
+                    android:src="@drawable/idcard"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginLeft="35dp"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="Annisa Zachry – TRPL ’20"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/layout_trpl8"
+            android:background="@color/greyThird"
+            android:id="@+id/layout_trpl10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="130dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/prospek_kerja"
+                android:paddingBottom="5dp"
+                android:paddingTop="15dp"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <TableRow
+                    android:background="#CCCCCC">
+
+                    <TextView
+                        android:text="@string/no"
+                        android:padding="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="148dp"
+                        android:padding="6dp"
+                        android:textColor="@color/black"
+                        android:text="@string/profesi_kerja"
+                        android:textSize="7sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:text="@string/estimasi_gaji"
+                        android:padding="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:text="@string/referensi"
+                        android:padding="6dp"
+                        android:textSize="7sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="@string/_1"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/web_developer_full_stack"
+                        android:textSize="7sp"
+                        android:textColor="@color/black"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/_11_jt_25_jt"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/kompas"
+                        android:textSize="7sp"
+                        android:padding="8dp"
+                        android:textColor="#FF5722"/>
+                </TableRow>
+
+                <TableRow android:background="#F2F2F2">
+                    <TextView
+                        android:text="@string/_2"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/front_end"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/_9_jt_28_jt"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/kompas1"
+                        android:textSize="7sp"
+                        android:padding="8dp"
+                        android:textColor="#FF5722"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="@string/_3"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/back_end"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/_13_jt_30_jt"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/kompas1"
+                        android:textSize="7sp"
+                        android:padding="8dp"
+                        android:textColor="#FF5722"/>
+                </TableRow>
+
+                <TableRow android:background="#F2F2F2">
+                    <TextView
+                        android:text="@string/_4"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/system_analyst"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/_9_jt_12_jt"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/indeed"
+                        android:textSize="7sp"
+                        android:padding="8dp"
+                        android:textColor="#FF5722"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="@string/_5"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/mobile_developer"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/_7_3_jt_41_jt"
+                        android:textColor="@color/black"
+                        android:textSize="7sp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="@string/glints"
+                        android:padding="8dp"
+                        android:textSize="7sp"
+                        android:textColor="#FF5722"/>
+                </TableRow>
+
+                <!-- Tambahkan sisa baris (6 hingga 11) dengan pola yang sama -->
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_trpl10"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/mitra_kami"
+            android:paddingBottom="5dp"
+            android:layout_centerHorizontal="true"
+            android:paddingRight="30dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:id="@+id/txt_trpl5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_trpl5"
+            android:textColor="@color/greyPrimer"
+            android:gravity="center"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:text="@string/berikut_adalah_beberapa_mitra_yang_sudah_bekerjasama_dengan_prodi_trpl_pei_di_bidang_pendidikan"
+            android:paddingBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:paddingRight="30dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:id="@+id/txt_trpl6"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_trpl6"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:id="@+id/card_trpl3">
+
+            <ImageView
+                android:layout_width="390dp"
+                android:layout_height="231dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/oracle" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/card_trpl3"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:id="@+id/card_trpl4">
+
+            <ImageView
+                android:layout_width="390dp"
+                android:layout_height="231dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/redhat" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/card_trpl4"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:id="@+id/card_trpl5">
+
+            <ImageView
+                android:layout_width="390dp"
+                android:layout_height="231dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/uiacademy" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/card_trpl5"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:id="@+id/card_trpl6">
+
+            <ImageView
+                android:layout_width="390dp"
+                android:layout_height="231dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bangkit" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/card_trpl6"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:id="@+id/card_trpl7">
+
+            <ImageView
+                android:layout_width="390dp"
+                android:layout_height="231dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dicoding" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/card_trpl7"
+            android:background="@color/greyPrimer"
+            android:id="@+id/layout_trpl11">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="65dp"
+                android:backgroundTint="@color/greenSecond"
+                app:cardCornerRadius="5dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/instagram"
+                    android:layout_marginTop="5dp"
+                    android:padding="12dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_kegiatan_lainnya_follow_ig_trpl"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

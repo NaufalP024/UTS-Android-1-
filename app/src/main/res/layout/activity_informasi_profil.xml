@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformasiProfil">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:id="@+id/infoprofil_layout">
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_back"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Informasi Profile"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginEnd="28dp" />
+            </LinearLayout>
+
+            <!-- Profile Image Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="32dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="60dp"
+                    app:cardElevation="4dp">
+
+                    <ImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tokopedia"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Profile Information Fields -->
+            <!-- Nama Field -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nama"
+                        android:textSize="14sp"
+                        android:textColor="@color/greyPrimer"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:id="@+id/btn_change_nama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Change"
+                        android:textSize="12sp"
+                        android:textColor="@color/greenPrimer"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="4dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Akmal Zalfa"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tanggal Lahir"
+                        android:textSize="14sp"
+                        android:textColor="@color/greyPrimer"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:id="@+id/btn_change_tanggal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Change"
+                        android:textSize="12sp"
+                        android:textColor="@color/greenPrimer"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="4dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_tanggal_lahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="05 November 2005"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Jenis Kelamin"
+                        android:textSize="14sp"
+                        android:textColor="@color/greyPrimer"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:id="@+id/btn_change_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Change"
+                        android:textSize="12sp"
+                        android:textColor="@color/greenPrimer"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="4dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_jenis_kelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Email"
+                        android:textSize="14sp"
+                        android:textColor="@color/greyPrimer"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:id="@+id/btn_change_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Change"
+                        android:textSize="12sp"
+                        android:textColor="@color/greenPrimer"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="4dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="akmalzalfa@gmail.com"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Hp"
+                    android:textSize="14sp"
+                    android:textColor="@color/greyPrimer"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tv_nomor_hp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:textSize="14sp"
+                    android:textColor="@color/greyPrimer"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tv_alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_profile"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@null"
+        app:itemTextColor="@null"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
